@@ -1,7 +1,7 @@
 #awk command
-str="Hi this is prateek 
-and I come from honnavar taluk in uttarakannada district
-currently studying in rvce bengaluru"
+str="this text will continue
+and we will end this in next line
+from top to bottom"
 
 echo $str | awk '{print $1}' #it will print fist word of str
 echo -e "$str" | awk '{print $1}' #it will print first word of each line
